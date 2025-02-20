@@ -17,11 +17,23 @@
   
   header nav ul {
     list-style-type: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav ul li{
+    margin-right: 15px;
   }
   
   header nav ul li a {
     text-decoration: none;
     color: #fff;
+  }
+
+  header nav ul li a:hover{
+    color: #c7c7c7;
   }
   
   main {
@@ -30,7 +42,30 @@
   
   main h1 {
     color: #213460;
+    margin: 10px 0; 
   }
+  
+  .search-bar {
+    margin-bottom: 10px;
+  }
+
+  .search-bar input {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #c7c7c7;
+  }
+  .search-bar button {
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    font-weight: 500;
+  }
+
+  .search-bar button:hover{
+    cursor: pointer;
+    background-color: #c9c9c9;
+  }
+
   
   main h2 {
     color: #213460;
@@ -38,20 +73,50 @@
   
   .image-container img {
     width: 500px;
+    border-radius: 10px;
   }
-  
+  .image-container img:hover{
+    scale: 1.1;
+  }
+
+  .description h2{
+    margin-bottom: 10px;
+  }
+
   .description p {
-    text-align: center !important;
+    width: 500px;
+    margin: 0 auto;
   }
-  
-  footer {
+
+  .btn {
+    display: inline-block;
+    background-color: rgb(35, 89, 189);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: darkblue;
+}
+
+ 
+
+  footer {
     background-color: #4e87c0;
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
-    padding: 10px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   
   footer p {
