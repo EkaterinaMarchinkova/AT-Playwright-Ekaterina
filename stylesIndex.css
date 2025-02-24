@@ -13,6 +13,7 @@
   
   header nav {
     text-align: center;
+    font-family:Georgia, serif
   }
   
   header nav ul {
@@ -43,6 +44,7 @@
   main h1 {
     color: #213460;
     margin: 10px 0; 
+    font-family:Georgia, serif;
   }
   
   .search-bar {
@@ -69,6 +71,8 @@
   
   main h2 {
     color: #213460;
+    margin: 10px;
+    font-family:Georgia, serif
   }
   
   .image-container img {
@@ -76,36 +80,38 @@
     border-radius: 10px;
   }
   .image-container img:hover{
-    scale: 1.1;
+    /* scale: 1.1; */
+    border: 1px solid #777;
   }
 
   .description h2{
     margin-bottom: 10px;
+
   }
 
   .description p {
     width: 500px;
     margin: 0 auto;
+    font-family:Georgia, serif
   }
 
   .btn {
     display: inline-block;
-    background-color: rgb(35, 89, 189);
+    background-color: rgb(35, 68, 129);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     transition: background-color 0.3s;
     margin-top: 10px;
+    font-family:Georgia, serif
 }
 .btn:hover {
-    background-color: darkblue;
+    background-color: #4c84e4;
 }
-
- 
 
   footer {
     background-color: #4e87c0;
@@ -116,6 +122,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family:Georgia, serif
 
   }
   
