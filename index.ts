@@ -44,7 +44,4 @@ stringValue = 10 ===10;
 stringValue =[10, 20, 30]
 
 
-console.log("stringValue:",stringValue)
-
-
 
