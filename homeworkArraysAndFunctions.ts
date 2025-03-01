@@ -61,3 +61,14 @@ function convertToCentimeters(inches: number = 5): number {
 }
 console.log(`defaule value ${convertToCentimeters()}`);
 console.log(`passed value ${convertToCentimeters(10)}`);
+
+//10.Write a function named “calculateArea” that takes a required width parameter and an optional height parameter. If height is not provided, assume the shape is a square.
+function calculateArea(width: number, height?: number) {
+  if (height === undefined) {
+    return width * width;
+  } else {
+    return width * height;
+  }
+}
+console.log(`The figure is squre with dimensions: ${calculateArea(2)}`);
+console.log(`The figure is retangle with dimensions: ${calculateArea(3, 4)}`);
