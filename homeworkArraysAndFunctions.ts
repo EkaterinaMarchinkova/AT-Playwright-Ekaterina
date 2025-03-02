@@ -11,7 +11,7 @@ console.log("numbersArray", numbersArray);
 //3.Use the map method to create a new array and divide each number by 2  “num / 2”   from [1, 2, 3, 4, 5].  Log the result.
 let numberArray2: number[] = [1, 2, 3, 4, 5];
 let devidedNumbers: number[] = numberArray2.map((num) => num / 2);
-//numberArray2.map((x) => x / 2); Това не работи и не разбирам защо?
+//numberArray2.map((x) => x / 2); Това не работи и не разбирам защо? Винаги ли трябва да запазваме променения масив в нова променлива?
 console.log("devidedNumbers", devidedNumbers);
 
 //4. Use the filter method to create a new array containing only numbers greater than 5 from [3, 7, 1, 9, 12, 4]. Log the result.
