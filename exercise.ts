@@ -69,9 +69,30 @@ function getStudents(students: Student[]): string[] {
 }
 
 const studentsNames = getStudents(studentsArray);
-console.log(studentsNames);
+//console.log(studentsNames);
 //
 
 //Exercise Three
 // Declare a function "sortStudents" that receive students array result from the previous exercise
 // and sort them by ascending
+
+//Sorted by Id asc
+function sortStudentsById(students: Student[]): Student[] {
+  return students.sort((a, b) => a.id - b.id);
+}
+const sortedStudentsById = sortStudentsById(studentsArray);
+console.log(sortedStudentsById);
+
+//Sorted by name asc
+function sortStudentsByName(students: Student[]): Student[] {
+  return students.sort((a, b) => a.name.localeCompare(b.name));
+}
+const sortedStudentsByName = sortStudentsByName(studentsArray);
+console.log(sortedStudentsByName);
+
+//Sorted by age desc
+function sortStudentsByAge(students: Student[]): Student[] {
+  return students.sort((b, a) => b.age - a.age);
+}
+const sortedStudentsByAge = sortStudentsByAge(studentsArray);
+console.log(sortedStudentsByAge);
