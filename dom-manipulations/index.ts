@@ -27,7 +27,7 @@ const secondItem: Element = document.getElementsByClassName("list-item")[1];
 
 secondItem.textContent = "Second Element";
 
-const selectedH2 = document.querySelector("h2") as HTMLHeadElement;
+const selectedH2 = document.querySelector("h2") as HTMLHeadingElement;
 
 if (selectedH2) {
   selectedH2.style.color = "blue";
