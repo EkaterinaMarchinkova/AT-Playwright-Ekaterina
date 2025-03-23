@@ -1,0 +1,22 @@
+{
+  "name": "at-playwright-ekaterina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaMarchinkova/AT-Playwright-Ekaterina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaMarchinkova/AT-Playwright-Ekaterina/issues"
+  },
+  "homepage": "https://github.com/EkaterinaMarchinkova/AT-Playwright-Ekaterina#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.11"
+  }
+}
